@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig = {appDir: true,
   output: "export",
   images: { unoptimized: true },
   experimental: {
