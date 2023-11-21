@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {appDir: true,
+const nextConfig = {
   output: "export",
   images: { unoptimized: true },
-  experimental: {
+  experimental: {appDir: true,
     serverComponentsExternalPackages: ["llamaindex"],
     outputFileTracingIncludes: {
       "/*": ["./cache/**/*"],
